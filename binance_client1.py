@@ -1,7 +1,7 @@
 import argparse
 import binance
 
-class BinanceClient:
+class BinanceClient1:
     def __init__(self, api_key, api_secret):
         self.client = binance.Client(api_key=api_key, api_secret=api_secret)
 
